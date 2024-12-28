@@ -1,0 +1,6 @@
+#content {
+   overflow: auto;
+   word-wrap: break-word;
+   background-color: #ffffff;
+   padding: 10px;
+}

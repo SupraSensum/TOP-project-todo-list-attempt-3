@@ -1,0 +1,43 @@
+{
+  "name": "top-project-restaurant-menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.prod.js",
+    "devBuild": "webpack --config webpack.dev.js",
+    "dev": "webpack serve --config webpack.dev.js",
+    "deployPages": "npm run build && git add dist -f && git commit -m 'Deployment commit' && git subtree push --prefix dist origin gh-pages",
+    "acp": "git add . && git commit && git push",
+    "fukmi": "echo \"fukmi\" && npm run fukyu",
+    "fukyu": "echo \"fukyu\" && npm run fukmi",
+    "prefuck": "echo \"prefuck\"",
+    "fuck": "echo \"le fuck\"",
+    "postfuck": "echo \"postfuck\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SupraSensum/TOP-project-restaurant-menu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SupraSensum/TOP-project-restaurant-menu/issues"
+  },
+  "homepage": "https://github.com/SupraSensum/TOP-project-restaurant-menu#readme",
+  "dependencies": {
+    "css-loader": "^7.1.2",
+    "date-fns": "^4.1.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "devDependencies": {
+    "webpack-merge": "^6.0.1"
+  }
+}

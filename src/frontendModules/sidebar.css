@@ -1,0 +1,18 @@
+#sidebar {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   background-color: #f4f5f7;
+}
+
+#addTaskButton {
+   width: auto;
+   height: 40px;
+   padding: 10px;
+   margin: 20px 20px 0px 20px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   background-color: #4CAF50;
+   color: white;
+   cursor: pointer;
+}
