@@ -2,23 +2,23 @@
 
 ## To do
 
-- [x] Each `todo` should be an object; use classes; need to refactor current implementation
-- [x] Give each `todo` the following properties:
-  - [x] title
-  - [x] description
-  - [x] dueDate
-  - [x] priority
-  - [x] notes
-  - [x] checklist
-  - [x] projects
-  - [x] completed
-- [x] CLI should be able to do the following for each task
-  - [x] create
-  - [x] read
-  - [x] update
-  - [x] delete
-- [x] Todo app should open to a default `project`
-- [x] Separate application logic into modules
+- [ ] Each `todo` should be an object; use classes; need to refactor current implementation
+- [ ] Give each `todo` the following properties:
+  - [ ] title
+  - [ ] description
+  - [ ] dueDate
+  - [ ] priority
+  - [ ] notes
+  - [ ] checklist
+  - [ ] projects
+  - [ ] completed
+- [ ] CLI should be able to do the following for each task
+  - [ ] create
+  - [ ] read
+  - [ ] update
+  - [ ] delete
+- [ ] Todo app should open to a default `project`
+- [ ] Separate application logic into modules
 - [ ] User interface should be able to:
   - [ ] View all projects
   - [ ] View all todos in each project (probably just the title and duedate… perhaps changing color for different priorities)

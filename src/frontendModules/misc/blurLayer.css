@@ -1,9 +1,0 @@
-#blurOverlay {
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100vw;
-   height: 100vh;
-   backdrop-filter: blur(4px);
-   z-index: 9999;
-}
