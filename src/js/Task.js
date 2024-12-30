@@ -1,6 +1,6 @@
 export default class Task {
    title = null;
-   #dueDate = null;
+   #dueDate = null; // a timestamp
 
    constructor() {
 
@@ -8,11 +8,12 @@ export default class Task {
 
    set dueDate(newDate) {
       const parsedDate = Date.parse(newDate);
-
-      console.log(parsedDate);
-      console.log(`parsedDate is NaN: ${Number.isNaN(parsedDate)}`);
-
-      this.#dueDate = parsedDate;
+      
+      if (Number.isNaN(parsedDate)) {
+         console.error('Invalid date format');
+      } else {
+         this.#dueDate = parsedDate;
+      }
    }
 
    get dueDate() {
