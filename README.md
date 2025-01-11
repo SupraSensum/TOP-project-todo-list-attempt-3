@@ -4,9 +4,9 @@
 
 - [ ] Each `todo` should be an object; use classes; need to refactor current implementation
 - [ ] Give each `todo` the following properties:
-  - [ ] title
+  - [x] title
   - [ ] description
-  - [ ] dueDate
+  - [x] dueDate
   - [ ] priority
   - [ ] notes
   - [ ] checklist
